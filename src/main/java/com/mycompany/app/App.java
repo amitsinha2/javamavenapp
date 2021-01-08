@@ -13,7 +13,8 @@ public class App
 }
 
     public static void main(String[] args) {
-        System.out.println(new App().getMessage());
+	String message = new App().getMessage();
+        System.out.println(message);
     }
 
     private final String getMessage() {
